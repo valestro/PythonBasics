@@ -1,7 +1,7 @@
 # PythonBasics
 <hr>
 <h2>PRELUDE, THE print FUNCTION</h2>
-<p>The keyword <span style="color:orange">print</span> is a Python <a href="https://docs.python.org/3/library/functions.html">built-in</a> function.
+<p>The keyword <b>print</b> is a Python <a href="https://docs.python.org/3/library/functions.html">built-in</a> function.
 <i>A function</i>  takes an input, placed inside parentheses, and returns an output.
 The <i>function</i> <span style="color:orange">print</span> is simple,<i> it takes anything inside of the parentheses and displays it on the terminal screen.</i>
 For example, to show the output of the input calculation
