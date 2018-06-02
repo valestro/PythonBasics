@@ -1,6 +1,6 @@
 # PythonBasics
 <hr>
-<h2>0_builtInPrintFunction.py</h2>
+<h1>0_builtInPrintFunction.py</h1>
 <h4><i>PRELUDE, THE print FUNCTION</i></h4>
 <p>The keyword <b>print</b> is a Python <a href="https://docs.python.org/3/library/functions.html">built-in</a> function.
 <i>A function</i>  takes an input, placed inside parentheses, and returns an output.
@@ -19,7 +19,7 @@ For example, to show the output of the input calculation
 [![The built-in Python Keyword Print](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/theBuiltPythonKeywordPrint.mp4gifFromOgv.gif?raw=true)](https://www.youtube.com/watch?v=sl3hquEpDGk&feature=youtu.be)
 
 <hr>
-<h2>1_Strings and the Backslash.py</h2>
+<h1>1_Strings and the Backslash.py</h1>
 <p>In computer programming, a <i><b>string</b></i> is zero or more characters written inside single or double quotes. 
 The characters are commonly letters of the alphabet strung together into an artist's name, a quote, or a file path.
 Examples:
