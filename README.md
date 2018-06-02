@@ -16,7 +16,7 @@ For example, to show the output of the input calculation
 <span class="pln">hello</span></pre>
 <p>To display words using the print function, the words must be surrounded by single or double quotes.</p>
 
-[![The built-in Python Keyword Print](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/theBuiltPythonKeywordPrint.mp4gifFromOgv.gif?raw=true)](https://www.youtube.com/watch?v=sl3hquEpDGk&feature=youtu.be)
+[![0_The built-in Python Keyword Print](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/theBuiltPythonKeywordPrint.mp4gifFromOgv.gif?raw=true)](https://www.youtube.com/watch?v=sl3hquEpDGk&feature=youtu.be)
 
 <hr>
 <h1>1_Strings and the Backslash.py</h1>
@@ -75,5 +75,7 @@ Use the backslash symbol to turn special characters, such as quotes,  into strin
 >>> JohnyCage
 <span style="color:#8888c6;">print</span>(x*<span style="color:#6897bb;">5</span>)
 >>> JohnyJohnyJohnyJohnyJohny</pre>
+
+[![1_Strings and the Backslash](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)](https://www.youtube.com/watch?v=SsWGY_zbOi8)
 
 <hr>
