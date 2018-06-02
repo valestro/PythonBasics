@@ -16,7 +16,7 @@ For example, to show the output of the input calculation
 <span class="pln">hello</span></pre>
 <p>To display words using the print function, the words must be surrounded by single or double quotes.</p>
 
-[![0_The built-in Python Keyword Print](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/theBuiltPythonKeywordPrint.mp4gifFromOgv.gif?raw=true)](https://www.youtube.com/watch?v=sl3hquEpDGk&feature=youtu.be)
+[![0_The built-in Python Keyword Print](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/0_ThePythonFunctionPrint.gif?raw=true)](https://www.youtube.com/watch?v=sl3hquEpDGk&feature=youtu.be)
 
 <hr>
 <h1>1_Strings and the Backslash.py</h1>
