@@ -134,6 +134,6 @@ print(len(user))                        # 8
 print(user[-3], user[-5], user[1])      # F D B. Extra. Append from right to left with -. 
                                         # Also, multiple print statements in one line seperated by commas.</pre>
 
-[![2_Slicing Up Strings](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)](https://www.youtube.com/watch?v=aQmF81GEfv0)
+[![2_Slicing Up Strings](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/2_SlicingUpStrings.png?raw=true)](https://www.youtube.com/watch?v=aQmF81GEfv0)
 
 <hr>
