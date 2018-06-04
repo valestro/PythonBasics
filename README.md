@@ -79,3 +79,41 @@ Use the backslash symbol to turn special characters, such as quotes,  into strin
 [![1_Strings and the Backslash](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)](https://www.youtube.com/watch?v=SsWGY_zbOi8)
 
 <hr>
+<p><i>Lesson: Accessing individual characters from a string.</i></p>
+<p><i>Prelude: Variables.</i></p>
+<p>A <span style="font-weight: 700;">variable</span> in Python is a container <a href="https://www.tutorialspoint.com/python/python_variable_types.htm">(a reserved memory location)</a> to store values such as integers or strings.</p>
+<p>To create a variable with the name <i>"</i><i>user" </i>which stores a string of capital letters, type "user" followed by the "equal sign" and lastly the string.</p>
+<pre class="prettyprint lang-py prettyprinted" style="line-height: 1.42857;"><span class="pln">user </span><span class="pun">=</span><span class="pln"> </span><span class="str">'ABCDEFGH'</span></pre><p>
+</p>
+<p>An important note before manipulating strings is that people usually start counting from one, for example 1, 2, 3 and so on. However computers start counting from zero, 0, 1, 2 and so on.</p>
+<pre class="prettyprint lang-py prettyprinted" style="line-height: 1.42857;"><span class="pln">user </span><span class="pun">=</span><span class="pln"> </span><span class="str">'ABCDEFGH'</span>
+<span class="pln">      </span><span class="com"># 01</span><span style="font-weight: 700;"><span class="com">2345</span></span><span class="com">67</span></pre><p>To access an individual character from a variable that is holding a string, use the variable's name followed by brackets.</p>
+<pre class="prettyprint lang-py prettyprinted" style="line-height: 1.42857;"><span class="pln">user</span><span class="pun">[<font color="#cd5c5c">y</font></span><span class="pun">]</span><span class="pln">  </span><span class="com"># y can be any number from 0 to 7 since user has 8 characters and cpu starts counting at 0</span></pre><p>Inside the brackets write the position of the character you want to get, remembering that computers start counting at zero.
+For example, to access the first character "A" of the string  type zero inside the brackets.</p>
+<pre class="prettyprint lang-py prettyprinted"><span class="kwd">print</span><span class="pun">(</span><span class="pln">user</span><span class="pun">[</span><span class="lit">0</span><span class="pun">])</span><span class="pln">  </span><span class="com"># A</span></pre> 
+<p>Typing "1" inside the bracket prints out B.</p>
+<pre class="prettyprint lang-py prettyprinted"><span class="kwd">print</span><span class="pun">(</span><span class="pln">user</span><span class="pun">[</span><span class="lit">1</span><span class="pun">])</span><span class="pln">  </span><span class="com"># B</span></pre> 
+<p>Another thing you can do is slice out a section of the string.
+You write two numbers in between a colon. The first number is where to start and second where to end<b> </b><i><b>minus one</b> </i>(watch out for this).</p>
+<pre class="prettyprint lang-py prettyprinted"><span class="kwd">print</span><span class="pun">(</span><span class="pln">user</span><span class="pun">[</span><span class="lit">2</span><span class="pun">:</span><span class="lit">6</span><span class="pun">])</span><span class="pln">  </span><span class="com"># CDEF</span></pre> 
+<p>Notice that the second number, 6, refers to the letter G but we only got the letter up to F, that's how it works when slicing a string using the colon.</p>
+<p><i>Omitting numbers</i>
+When using the colon to slice a string, if you don't include the beginning Python assumes that you want to start from the very beginning. </p>
+<pre class="prettyprint lang-py prettyprinted" style="line-height: 1.42857;"><span class="kwd">print<span class="pun" style="font-weight: normal;">(</span><span class="pln" style="font-weight: normal;">user</span><span class="pun" style="font-weight: normal;">[:</span><span class="lit" style="font-weight: normal;">3</span><span class="pun" style="font-weight: normal;">])</span><span class="pln" style="font-weight: normal;">  </span><span class="com" style="font-weight: normal;"># ABC</span></span></pre><p> Omitting the stopping point will go all the way to the end.</p>
+<pre class="prettyprint lang-py prettyprinted"><span class="kwd">print</span><span class="com"><span class="pun">(</span><span class="pln">user</span><span class="pun">[</span><span class="lit">2</span><span class="pun">:])</span><span class="pln">  </span><span class="com"># CDEFGH</span></span>
+</pre> 
+<p>Omitting both the start and stop position selects all the <i>positions</i>.</p>
+<pre class="prettyprint lang-py prettyprinted" style="line-height: 1.42857;"><span class="kwd">print</span><span class="pun">(</span><span class="pln">user</span><span class="pun">[:])</span><span class="pln">   </span><span class="com"># ABCDEFGH</span></pre><p><i><sub>For more on slicing strings read the below.</sub></i>
+<a href="https://stackoverflow.com/questions/663171/is-there-a-way-to-substring-a-string-in-python" style="background-color: rgb(0, 0, 0);">Substring a string.</a>
+<a href="https://stackoverflow.com/questions/509211/understanding-pythons-slice-notation" style="background-color: rgb(0, 0, 0);">Understanding Python's slice notation.</a>
+</p>
+<p>
+</p>
+<p>Finally, lets expand our knowledge of <i>functions</i> (since they are fundamental when writing actual programs). We have seen that Python's <i>print</i>  function takes anything inside the parentheses, an input aka the <i>argument</i>, and displays it on the terminal window. 
+</p>
+<p>Another Python built-in function is the length function, len.</p>
+<pre class="prettyprint lang-py prettyprinted"><span class="pln">len</span><span class="pun">()</span></pre>
+<p>It takes a string as an input, aka an argument , calculates how many characters it contains, and returns a number. This whole thing can then be passed as an argument to the print function.</p>
+<pre class="prettyprint lang-py prettyprinted"><span class="kwd">print</span><span class="pun">(</span><span class="pln">len</span><span class="pun">(</span><span class="pln">user</span><span class="pun">))</span><span class="pln">  </span><span class="com"># 8</span></pre>
+
+<hr>
