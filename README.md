@@ -123,7 +123,7 @@ Before learning about more versatile data types like list we will learn a little
 
 RECAP of this section
 
-user = 'ABCDEFGH'                                    
+<pre>user = 'ABCDEFGH'                                    
 print(user[0])                          # A       
 print(user[1])                          # B 
 print(user[2:6])                        # CDEF   
@@ -131,8 +131,9 @@ print(user[:3])                         # ABC
 print(user[2:])                         # CDEFGH
 print(user[:])                          # ABCDEFGH   
 print(len(user))                        # 8
-print(user[-3], user[-5], user[1])      # F D B. Extra. Append from right to left with -. Also, multiple print statements in one line seperated by commas.
+print(user[-3], user[-5], user[1])      # F D B. Extra. Append from right to left with -. 
+                                        # Also, multiple print statements in one line seperated by commas.</pre>
 
-[![2_Slicing Up Strings](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)]https://www.youtube.com/watch?v=aQmF81GEfv0)
+[![2_Slicing Up Strings](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)](https://www.youtube.com/watch?v=aQmF81GEfv0)
 
 <hr>
