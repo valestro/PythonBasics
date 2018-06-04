@@ -79,6 +79,7 @@ Use the backslash symbol to turn special characters, such as quotes,  into strin
 [![1_Strings and the Backslash](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)](https://www.youtube.com/watch?v=SsWGY_zbOi8)
 
 <hr>
+<h1>2_SlicingUpStrings.py</h1>
 <p><i>Lesson: Accessing individual characters from a string.</i></p>
 <p><i>Prelude: Variables.</i></p>
 <p>A <span style="font-weight: 700;">variable</span> in Python is a container <a href="https://www.tutorialspoint.com/python/python_variable_types.htm">(a reserved memory location)</a> to store values such as integers or strings.</p>
