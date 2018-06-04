@@ -1,4 +1,4 @@
-# PythonBasics
+# Python Basics
 <hr>
 <h1>0_builtInPrintFunction.py</h1>
 <h4><i>PRELUDE, THE print FUNCTION</i></h4>
@@ -116,5 +116,23 @@ When using the colon to slice a string, if you don't include the beginning Pytho
 <pre class="prettyprint lang-py prettyprinted"><span class="pln">len</span><span class="pun">()</span></pre>
 <p>It takes a string as an input, aka an argument , calculates how many characters it contains, and returns a number. This whole thing can then be passed as an argument to the print function.</p>
 <pre class="prettyprint lang-py prettyprinted"><span class="kwd">print</span><span class="pun">(</span><span class="pln">len</span><span class="pun">(</span><span class="pln">user</span><span class="pun">))</span><span class="pln">  </span><span class="com"># 8</span></pre>
+
+Next Lesson
+
+Before learning about more versatile data types like list we will learn a little about Integers aka whole numbers.
+
+RECAP of this section
+
+user = 'ABCDEFGH'                                    
+print(user[0])                          # A       
+print(user[1])                          # B 
+print(user[2:6])                        # CDEF   
+print(user[:3])                         # ABC      
+print(user[2:])                         # CDEFGH
+print(user[:])                          # ABCDEFGH   
+print(len(user))                        # 8
+print(user[-3], user[-5], user[1])      # F D B. Extra. Append from right to left with -. Also, multiple print statements in one line seperated by commas.
+
+[![2_Slicing Up Strings](https://github.com/valestro/PythonBasics/blob/master/pythonBasicsAllImagesGH/1_stringsAndBackslash.gif?raw=true)]https://www.youtube.com/watch?v=aQmF81GEfv0)
 
 <hr>
