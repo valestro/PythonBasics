@@ -1,0 +1,27 @@
+# Make a list with []
+players = [10, 21, 32, 43, 54]
+
+# Appending to the end of list
+x = players + [65, 76]
+print(x)                                       # [10, 21, 32, 43, 54, 65, 76]
+
+# Different way to append
+players.append(120)
+print(players)                                 # [10, 21, 32, 43, 54, 120]
+
+# Change the third element from 66 to 68
+players[2] = 68
+print(players)                                 # [10, 21, 68, 43, 54, 120]
+
+# Gets only first two values
+print(players[:2])                             # [10, 21]
+players[:2] = [0, 0]
+print(players)                                 # [0, 0, 68, 43, 54, 120]
+
+# deletes the first two values
+players[:2] = []
+print(players)                                 # [68, 43, 54, 120]
+
+# deletes all
+players[:] = []
+print(players)                                 # []
